@@ -10,6 +10,8 @@ import lombok.extern.jackson.Jacksonized;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CustomerDTO {
+    private Long id;
+    
     private String name;
    
     private String phone;
