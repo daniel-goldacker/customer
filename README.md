@@ -20,7 +20,7 @@ You can run your application in dev mode that enables live coding using:
 ./mvnw quarkus:dev
 ```
 
-> ***NOTE:*** Quarkus now ships with a Dev UI, which is available in dev mode only at [http://localhost:8080/q/dev/](http://localhost:8080/q/dev/).
+> ***NOTE:*** Quarkus now ships with a Dev UI, which is available in dev mode only at [http://localhost:8083/q/dev/](http://localhost:8083/q/dev/).
 
 ## Packaging and running the application
 
@@ -97,7 +97,7 @@ docker-compose up
 
 This will start both the `app` and `db` services defined in your `docker-compose.yml`.
 
-* The app will be available at `http://localhost:8080`
+* The app will be available at `http://localhost:8083`
 * The database will be running on the network `docker-db-test` with:
 
   * **Username:** admin

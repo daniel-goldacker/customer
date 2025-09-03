@@ -14,7 +14,7 @@ services:
       - QUARKUS_DATASOURCE_PASSWORD=admin
       - QUARKUS_JPA_HIBERNATE_DDL_AUTO=update
     ports:
-      - 8080:8080
+      - 8083:8083
     networks:
       - docker-db-test
 
